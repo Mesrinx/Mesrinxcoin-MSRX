@@ -39,7 +39,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@[![CodeQL](https://github.com/Mesrinx/Mesrinxcoin-MSRX/actions/workflows/codeql-analysis.yml/badge.svg?branch=mesrinxcoin-tokinx&event=issues)](https://github.com/Mesrinx/Mesrinxcoin-MSRX/actions/workflows/codeql-analysis.yml)
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
